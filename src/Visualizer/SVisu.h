@@ -17,9 +17,12 @@ public:
     SVisu();
 
     void populateVec(int smallestN, int largestN, int size);
-    void createRectangles(sf::Vector2u resolution);
 
-    const std::vector<sf::RectangleShape>& getRectangles();
+    std::vector<int>& getVec();
+    int getVecMaxVal();
+
+    void createRectangles(sf::Vector2u resolution);
+    std::vector<sf::RectangleShape>& getRectangles();
 
     // for debug purposes:
 

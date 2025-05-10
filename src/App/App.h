@@ -4,9 +4,12 @@
 
 #include <vector>
 #include <iostream>
+#include <thread>
+#include <chrono>
 
 #include "../Visualizer/SVisu.h"
 #include "../../Theme/Colors.h"
+#include "../SortingAlgorithms/Sorting.h"
 
 class App
 {
@@ -15,7 +18,7 @@ private:
     sf::Vector2u resolution_;
     SVisu sVisualizer_;
     
-    void input();
+    void events();
     void update();
     void draw();
 

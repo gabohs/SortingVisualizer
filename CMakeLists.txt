@@ -16,6 +16,7 @@ set(SOURCES
     src/main.cpp 
     src/App/App.cpp
     src/Visualizer/SVisu.cpp
+    src/SortingAlgorithms/Sorting.cpp
     Theme/Colors.cpp
 )
 
